@@ -16,7 +16,9 @@
 body {
   background-color: #ffffff;
   color: var(--primaty-text-color);
+  font-family: 'Roboto', sans-serif;
 }
+
 ul {
   list-style: none;
 }
@@ -27,16 +29,30 @@ a {
 
 .logo {
   color: #000000;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 .logo-blue {
-  color: #2196f3;
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 /* Site nav */
 
 .site-nav .link {
   color: var(--tittle-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -56,6 +72,11 @@ a {
 
 .auth-nav .link {
   color: var(--primaty-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .auth-nav .link:hover,
@@ -64,15 +85,41 @@ a {
 }
 
 /* Hero */
+.hero-tittle {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
 
 /* Преимущества */
 .features-tittle {
   color: var(--tittle-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* Чем мы занимемся */
 .example-tittle {
   color: var(--tittle-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* Команда */
@@ -82,6 +129,9 @@ a {
 }
 .team-profession {
   color: var(--primaty-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .team-social .link:hover,
@@ -89,9 +139,29 @@ a {
   color: var(--accent-color);
 }
 
+.team-tittle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
 /* Постоянные клиенты */
 .clients-tittle {
   color: var(--tittle-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .clients-link .link:hover,
@@ -103,11 +173,24 @@ a {
 .button.primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* Footer */
 .logo-white {
   color: var(--primary-white-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
+
+  letter-spacing: 0.03em;
 }
 
 .address-str {
@@ -116,14 +199,27 @@ a {
 
 .address-contact {
   color: var(--text-color-footer);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .invite {
   color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .copyright {
   color: var(--copyright-color);
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .social-link .link:hover,
@@ -131,17 +227,33 @@ a {
   color: var(--accent-color);
 }
 
-/* PORFOLIO!! */
+/* PORTFOLIO!! */
 .btn .button:hover,
 .btn .button:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
 
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 .work .work-tittle {
   color: var(--tittle-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.38;
+  letter-spacing: 0.06em;
 }
 
 .work .work-text {
   color: var(--primaty-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
