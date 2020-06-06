@@ -1,0 +1,125 @@
+/* цевет основного текста color: color: #757575 */
+/* цвет вторичного текста color: #212121; */
+/* бэкграунд background: #E5E5E5 */
+/*  бэкграунж вторичный #F5F4FA */
+/* акцент color: #2196F3 */
+/* белый color: #FFFFFF */
+/* цвет подписи в футере, почта + тел color: rgba(255, 255, 255, 0.4) */
+:root {
+  --primaty-text-color: #757575;
+  --tittle-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --text-address-color-footer: rgba(255, 255, 255, 0.6);
+  --copyright-color: rgba(255, 255, 255, 0.4);
+}
+body {
+  background-color: #ffffff;
+  color: var(--primaty-text-color);
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  color: #000000;
+}
+
+.logo-blue {
+  color: #2196f3;
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--tittle-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* auth-nav */
+
+.auth-nav .link {
+  color: var(--primaty-text-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+/* Преимущества */
+.features-tittle {
+  color: var(--tittle-text-color);
+}
+
+/* Чем мы занимемся */
+.example-tittle {
+  color: var(--tittle-text-color);
+}
+
+/* Команда */
+.team-tittle,
+.team-name {
+  color: var(--tittle-text-color);
+}
+
+.team-social .link:hover,
+.team-social .link:focus {
+  color: var(--accent-color);
+}
+
+/* Постоянные клиенты */
+.clients-tittle {
+  color: var(--tittle-text-color);
+}
+
+.clients-link .link:hover,
+.clients-link .link:focus {
+  color: var(--accent-color);
+}
+
+/* button! */
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* Footer */
+.logo-white {
+  color: var(--primary-white-color);
+}
+
+.address-str {
+  color: var(--primary-white-color);
+}
+
+.address-contact {
+  color: var(--text-color-footer);
+}
+
+.invite {
+  color: var(--primary-white-color);
+}
+
+.copyright {
+  color: var(--copyright-color);
+}
+
+.social-link .link:hover,
+.social-link .link:focus {
+  color: var(--accent-color);
+}

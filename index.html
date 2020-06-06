@@ -4,52 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="/">
-          Web Studio
-        </a>
-        <ul>
+        <a href="/" class="logo"> <span class="logo-blue">Web</span> Studio </a>
+        <ul class="site-nav">
           <li>
-            <a href="">Студия</a>
+            <a href="" class="link current">Студия</a>
           </li>
           <li>
-            <a href="./portfolio.html">Портфолио</a>
+            <a href="./portfolio.html" class="link">Портфолио</a>
           </li>
           <li>
-            <a href="">Контакты</a>
+            <a href="" class="link">Контакты</a>
           </li>
         </ul>
       </nav>
 
       <address>
-        <ul>
+        <ul class="auth-nav">
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="link"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
           </li>
         </ul>
       </address>
     </header>
 
     <main>
-      <section>
-        <h1>эффективные решения для вашего бизнеса</h1>
-        <a href="">Заказать услугу</a>
+      <section class="hero">
+        <h1 class="hero-tittle">эффективные решения для вашего бизнеса</h1>
+        <a href="" class="button primary">Заказать услугу</a>
       </section>
 
       <!-- Преимущества (потом скрыть абзац) -->
-      <section>
-        <h2>Преимущества</h2>
+      <section class="features">
+        <h2 class="features-tittle">Преимущества</h2>
 
         <ul>
           <li>
             <img src="./images/antenna.png" alt="Антенна" />
-            <h3>Внимание к деталям</h3>
+            <h3 class="features-tittle">Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
@@ -60,7 +61,7 @@
         <ul>
           <li>
             <img src="./images/clock.png" alt="Часы" />
-            <h3>Пунктуальность</h3>
+            <h3 class="features-tittle">Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
@@ -71,7 +72,7 @@
         <ul>
           <li>
             <img src="./images/diagram.png" alt="Диаграмма" />
-            <h3>Планирование</h3>
+            <h3 class="features-tittle">Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
@@ -82,7 +83,7 @@
         <ul>
           <li>
             <img src="./images/astronaut.png" alt="Астронавт" />
-            <h3>Современные технологии</h3>
+            <h3 class="features-tittle">Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -92,8 +93,8 @@
       </section>
 
       <!-- Чем мы занимемся -->
-      <section>
-        <h2>Чем мы занимаемся</h2>
+      <section class="example">
+        <h2 class="example-tittle">Чем мы занимаемся</h2>
 
         <ul>
           <li>
@@ -145,8 +146,8 @@
       </section>
 
       <!-- Команда -->
-      <section>
-        <h2>Наша команда</h2>
+      <section class="team">
+        <h2 class="team-tittle">Наша команда</h2>
 
         <ul>
           <li>
@@ -157,16 +158,26 @@
                 width="270"
                 height="260"
               />
-              <h3>John Smith</h3>
-              <p>Product Designer</p>
             </a>
+            <h3 class="team-name">John Smith</h3>
+            <p>Product Designer</p>
           </li>
         </ul>
-        <ul>
-          <li><a href="" aria-label="Ссылка на инстаграм">Инстаграм</a></li>
-          <li><a href="" aria-label="Ссылка на твиттер">Твиттер</a></li>
-          <li><a href="" aria-label="Ссылка на фейсбук">Фейсбук</a></li>
-          <li><a href="" aria-label="Ссылка на линкедин">Линкедин</a></li>
+        <ul class="team-social">
+          <li>
+            <a href="" aria-label="Ссылка на инстаграм" class="link"
+              >Инстаграм</a
+            >
+          </li>
+          <li>
+            <a href="" aria-label="Ссылка на твиттер" class="link">Твиттер</a>
+          </li>
+          <li>
+            <a href="" aria-label="Ссылка на фейсбук" class="link">Фейсбук</a>
+          </li>
+          <li>
+            <a href="" aria-label="Ссылка на линкедин" class="link">Линкедин</a>
+          </li>
         </ul>
 
         <ul>
@@ -180,17 +191,27 @@
                 width="270"
                 height="260"
               />
-              <h3>Marta Stewart</h3>
-              <p>Frontend Developer</p>
             </a>
+            <h3 class="team-name">Marta Stewart</h3>
+            <p>Frontend Developer</p>
           </li>
         </ul>
 
-        <ul>
-          <li><a href="" aria-label="Ссылка на инстаграм">Инстаграм</a></li>
-          <li><a href="" aria-label="Ссылка на твиттер">Твиттер</a></li>
-          <li><a href="" aria-label="Ссылка на фейсбук">Фейсбук</a></li>
-          <li><a href="" aria-label="Ссылка на линкедин">Линкедин</a></li>
+        <ul class="team-social">
+          <li>
+            <a href="" aria-label="Ссылка на инстаграм" class="link"
+              >Инстаграм</a
+            >
+          </li>
+          <li>
+            <a href="" aria-label="Ссылка на твиттер" class="link">Твиттер</a>
+          </li>
+          <li>
+            <a href="" aria-label="Ссылка на фейсбук" class="link">Фейсбук</a>
+          </li>
+          <li>
+            <a href="" aria-label="Ссылка на линкедин" class="link">Линкедин</a>
+          </li>
         </ul>
 
         <ul>
@@ -204,16 +225,26 @@
                 width="270"
                 height="260"
               />
-              <h3>Robert Jakis</h3>
-              <p>Marketing</p>
             </a>
+            <h3 class="team-name">Robert Jakis</h3>
+            <p>Marketing</p>
           </li>
         </ul>
-        <ul>
-          <li><a href="" aria-label="Ссылка на инстаграм">Инстаграм</a></li>
-          <li><a href="" aria-label="Ссылка на твиттер">Твиттер</a></li>
-          <li><a href="" aria-label="Ссылка на фейсбук">Фейсбук</a></li>
-          <li><a href="" aria-label="Ссылка на линкедин">Линкедин</a></li>
+        <ul class="team-social">
+          <li>
+            <a href="" aria-label="Ссылка на инстаграм" class="link"
+              >Инстаграм</a
+            >
+          </li>
+          <li>
+            <a href="" aria-label="Ссылка на твиттер" class="link">Твиттер</a>
+          </li>
+          <li>
+            <a href="" aria-label="Ссылка на фейсбук" class="link">Фейсбук</a>
+          </li>
+          <li>
+            <a href="" aria-label="Ссылка на линкедин" class="link">Линкедин</a>
+          </li>
         </ul>
 
         <ul>
@@ -227,30 +258,52 @@
                 width="270"
                 height="260"
               />
-              <h3>Martin Doe</h3>
-              <p>UI Designer</p>
             </a>
+            <h3 class="team-name">Martin Doe</h3>
+            <p>UI Designer</p>
           </li>
         </ul>
-        <ul>
-          <li><a href="" aria-label="Ссылка на инстаграм">Инстаграм</a></li>
-          <li><a href="" aria-label="Ссылка на твиттер">Твиттер</a></li>
-          <li><a href="" aria-label="Ссылка на фейсбук">Фейсбук</a></li>
-          <li><a href="" aria-label="Ссылка на линкедин">Линкедин</a></li>
+        <ul class="team-social">
+          <li>
+            <a href="" aria-label="Ссылка на инстаграм" class="link"
+              >Инстаграм</a
+            >
+          </li>
+          <li>
+            <a href="" aria-label="Ссылка на твиттер" class="link">Твиттер</a>
+          </li>
+          <li>
+            <a href="" aria-label="Ссылка на фейсбук" class="link">Фейсбук</a>
+          </li>
+          <li>
+            <a href="" aria-label="Ссылка на линкедин" class="link">Линкедин</a>
+          </li>
         </ul>
 
         <!-- Постоянные клиенты -->
-        <section>
-          <h2>Постоянные клиенты</h2>
+        <section class="clients">
+          <h2 class="clients-tittle">Постоянные клиенты</h2>
 
-          <ul>
+          <ul class="clients-link">
             <li>
-              <a href="" aria-label="Ссылка на клиента 1">Клиент 1</a>
-              <a href="" aria-label="Ссылка на клиента 2">Клиент 2</a>
-              <a href="" aria-label="Ссылка на клиента 3">Клиент 3</a>
-              <a href="" aria-label="Ссылка на клиента 4">Клиент 4</a>
-              <a href="" aria-label="Ссылка на клиента 5">Клиент 5</a>
-              <a href="" aria-label="Ссылка на клиента 6">Клиент 6</a>
+              <a href="" aria-label="Ссылка на клиента 1" class="link"
+                >Клиент 1</a
+              >
+              <a href="" aria-label="Ссылка на клиента 2" class="link"
+                >Клиент 2</a
+              >
+              <a href="" aria-label="Ссылка на клиента 3" class="link"
+                >Клиент 3</a
+              >
+              <a href="" aria-label="Ссылка на клиента 4" class="link"
+                >Клиент 4</a
+              >
+              <a href="" aria-label="Ссылка на клиента 5" class="link"
+                >Клиент 5</a
+              >
+              <a href="" aria-label="Ссылка на клиента 6" class="link"
+                >Клиент 6</a
+              >
             </li>
           </ul>
         </section>
@@ -258,28 +311,40 @@
     </main>
 
     <footer>
-      <a href="/">
-        Web Studio
+      <a href="/" class="logo-white">
+        <span class="logo-blue">Web</span>Studio
       </a>
 
-      <address>
+      <address class="address-str">
         г. Киев, пр-т Леси Украинки, 26
       </address>
 
       <address>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <a href="mailto:info@devstudio.com" class="address-contact"
+          >info@devstudio.com</a
+        >
+        <a href="tel:+380961111111" class="address-contact"
+          >+38 096 111 11 11</a
+        >
       </address>
 
-      <b>присоединяйтесь</b>
-      <ul>
-        <li><a href="" aria-label="Ссылка на инстаграм">Инстаграм</a></li>
-        <li><a href="" aria-label="Ссылка на твиттер">Твиттер</a></li>
-        <li><a href="" aria-label="Ссылка на фейсбук">Фейсбук</a></li>
-        <li><a href="" aria-label="Ссылка на линкедин">Линкедин</a></li>
+      <b class="invite">присоединяйтесь</b>
+      <ul class="social-link">
+        <li>
+          <a href="" aria-label="Ссылка на инстаграм" class="link">Инстаграм</a>
+        </li>
+        <li>
+          <a href="" aria-label="Ссылка на твиттер" class="link">Твиттер</a>
+        </li>
+        <li>
+          <a href="" aria-label="Ссылка на фейсбук" class="link">Фейсбук</a>
+        </li>
+        <li>
+          <a href="" aria-label="Ссылка на линкедин" class="link">Линкедин</a>
+        </li>
       </ul>
 
-      <p>2020 &#124; Developed by GoIT Students</p>
+      <p class="copyright">2020 &#124; Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
