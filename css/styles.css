@@ -48,6 +48,10 @@ a {
   color: var(--accent-color);
 }
 
+.site-nav .link.nav-tittle {
+  color: var(--tittle-text-color);
+}
+
 /* auth-nav */
 
 .auth-nav .link {
@@ -75,6 +79,9 @@ a {
 .team-tittle,
 .team-name {
   color: var(--tittle-text-color);
+}
+.team-profession {
+  color: var(--primaty-text-color);
 }
 
 .team-social .link:hover,
@@ -122,4 +129,19 @@ a {
 .social-link .link:hover,
 .social-link .link:focus {
   color: var(--accent-color);
+}
+
+/* PORFOLIO!! */
+.btn .button:hover,
+.btn .button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.work .work-tittle {
+  color: var(--tittle-text-color);
+}
+
+.work .work-text {
+  color: var(--primaty-text-color);
 }
